@@ -1,0 +1,43 @@
+.ToDo{
+    display: flex;
+    height: 35px;
+    background-color: #D9DBEC;
+    padding: 2px 4px;
+    margin: 5px 0px;
+    border: 3px solid #5AA3DB;
+}
+.ToDo *{
+    height: 100%;
+    box-sizing:border-box;
+    margin: 0px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.ToDo button{
+    cursor:pointer;
+    background-color: #D9DBEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToDo button:hover{
+    background-color: #AEB2D6;
+}
+
+.ToDo-textInput{
+    flex-grow: 1;
+    margin-right: 3px;
+    padding-left: 5px;
+    background-color: #D9DBEC;
+}
+.ToDo-Li{
+    display: flex;
+    text-align: center;
+    flex-grow: 2;
+    align-items: center;
+}
+.ToDo-Li.isDone{
+    text-decoration-line: line-through;
+}
